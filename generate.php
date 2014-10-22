@@ -1,8 +1,8 @@
 <?php
-  $dbname = '';
-  $dbuser = '';
-  $dbpass = '';
-  $dbhost = '';
+  $dbname = "";
+  $dbuser = "";
+  $dbpass = "";
+  $dbhost = "";
   $db = new PDO('mysql:host='$dbhost';dbname='$dbname'', $dbuser, $dbpass);
  ?>
  <form method="GET" action="">
